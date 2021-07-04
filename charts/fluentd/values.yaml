@@ -1,0 +1,11 @@
+image:
+  repository: aimvector/fluentd-demo
+
+elasticsearch:
+  image: elasticsearch:7.9.1
+  host: "elasticsearch"
+  indexName: "fluentd"
+
+hostLogDir:
+  varLog: /var/log
+  dockerContainers: /var/lib/docker/containers
